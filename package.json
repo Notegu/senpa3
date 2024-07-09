@@ -1,0 +1,22 @@
+{
+  "name": "senpa-chat",
+  "version": "1.0.0",
+  "description": "Senpa chat from Discord",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "async-lock": "^1.4.1",
+    "chrome": "^0.1.0",
+    "discord.js": "^14.15.3",
+    "express": "^4.19.2",
+    "selenium-webdriver": "^4.22.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^125.0.3"
+  },
+  "engines": {
+    "node": "20.14.0"
+  }
+}
